@@ -1,0 +1,16 @@
+:root {
+  font-size: 100%;
+}
+
+@media(max-width: 600px) {
+  :root {
+    font-size: 89%;
+  }
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 0.850rem;
+}
