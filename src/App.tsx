@@ -1,11 +1,10 @@
 import React from 'react'
-import { putTheme, getTheme } from './styles/theme/themePersisted'
-import { light, dark } from './styles/theme/themeColors'
-import ThemeOptions from './styles/theme/themeOptions'
+import { putTheme, getTheme } from './theme/themePersisted'
+import { light, dark } from './theme/theme'
+import ThemeOptions from './theme/themeOptions'
 import { createMuiTheme, ThemeProvider, CssBaseline} from '@material-ui/core'
 import { ThemeContext } from './components/ThemeContext';
 import Home from './pages/Home'
-import './styles/global.css'
 
 function App() {
   const [theme, setTheme] = React.useState(getTheme)

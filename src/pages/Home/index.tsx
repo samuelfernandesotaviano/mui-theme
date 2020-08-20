@@ -1,6 +1,6 @@
 import React from 'react'
 import useStyles from './styles'
-import {AppBar, Toolbar, Card, CardContent, Typography} from  '@material-ui/core'
+import {AppBar, Toolbar, Typography} from  '@material-ui/core'
 import ToggleThemeButton from  '../../components/ToggleThemeButton'
 import ButtonCustom from '../../components/ButtonCustom'
 

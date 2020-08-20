@@ -1,3 +1,5 @@
+import { ThemeOptions } from '@material-ui/core/styles'
+
 const colors = {
   primary: {
     light: '#9fffe0',
@@ -17,7 +19,7 @@ const colors = {
   }
 }
 
-export const light = {
+export const light:ThemeOptions = {
   palette: {
     type: 'light',
     primary: colors.primary,
@@ -35,7 +37,7 @@ export const light = {
   }
 }
 
-export const dark = {
+export const dark:ThemeOptions = {
   palette: {
     type: 'dark',
     primary: {
